@@ -25,8 +25,8 @@ DeepResUnet : 종단간 심층 합성곱 신경망(end-to-end DCNN)으로 기존
 ## 성능 저하 요인 분석
 - Residual Green Space : 그림자를 식생이라고 인식 ⇒ 과탐지(FP**⬆️**)→ **precision 낮게 측정**
 
-<img src = "https://user-images.githubusercontent.com/74392995/180713034-8ddb4cc5-1276-4359-8841-6a6500ea2e37.png" width = "80%" height = "40%">
+<img src = "https://user-images.githubusercontent.com/74392995/180713034-8ddb4cc5-1276-4359-8841-6a6500ea2e37.png" width = "70%" height = "40%">
 
 - Lake Green Space : 강을 식생이라고 인식 ⇒ 과탐지(FP**⬆️**)→ **precision 낮게 측정**
 
-<img src = "https://user-images.githubusercontent.com/74392995/180713099-46fc8a64-4cd7-458a-80f2-a31fea5b8125.png" width = "80%" height = "40%">
+<img src = "https://user-images.githubusercontent.com/74392995/180713099-46fc8a64-4cd7-458a-80f2-a31fea5b8125.png" width = "70%" height = "40%">
